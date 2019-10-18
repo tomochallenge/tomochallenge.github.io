@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Submit results
+title: Submit
 permalink: submit/
 include_in_menu: true
 ---
