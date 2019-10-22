@@ -20,7 +20,7 @@ with each voxel labeled as background, foam, large void, medium-sized void, or s
 4. Fraction of correctly segmented voxels for small voids: tp/n, where tp is the total number of small void voxels correctly segmented to 0, and n is the total number of small void voxels in the sample.
 5. Dice score of the foam material for voxels that are on a boundary between foam and air. This score is computed similarly to the first Dice score above, but using only pixels that are on a boundary between foam and air (i.e. foam voxels that have a neighboring air voxel or vice-versa). Here, the outer boundary of the sample is included in the metric computation.
 
-As a final score of the submission, the harmonic mean of all five metrics is used.
+As a final score of the submission, the harmonic mean of all five metrics is used. For the expanding foam phantom, the metrics are computed for the sample at the time that projection number 2688 (out of 3072) is taken. To make a submission for the expanding phantom, please submit only the 3D segmented volume at the time of projection 2688.
 
 The Python script used to compute these metrics is made available in a [GitHub repository](https://github.com/tomochallenge/tomochallenge_utils). Also provided is the ground truth file for the Foam 1 sample, which
 can be used to compute the metrics for the training datasets.
