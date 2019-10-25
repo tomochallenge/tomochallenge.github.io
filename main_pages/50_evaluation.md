@@ -25,7 +25,7 @@ As a final score of the submission, the harmonic mean of all five metrics is use
 The Python script used to compute these metrics is made available in a [GitHub repository](https://github.com/tomochallenge/tomochallenge_utils). Also provided is the ground truth file for the Foam 1 sample, which
 can be used to compute the metrics for the training datasets.
 
-### Operando Fuel Cell data
+## Operando Fuel Cell data
 
 Each submission for the operando fuel cell dataset challenge consists of segmented volumes for 3 selected time steps (see [here](https://tomochallenge.github.io/submit/) for more information on how to submit), with water voxels having the value 1, and the other voxels (air, carbon, platinum, …) the value 0. The time steps considered for the evaluation are the following:
 
