@@ -18,7 +18,7 @@ to enable the community to learn from the results. Also, please include informat
 
 ### Timeline
 
-* Nov 2019: Challenge launched.
+* Nov 2019: Challenge launched. Training and validation datasets for foam phantoms released. Fuel cell datasets released.
 * Around Feb 2020: Test datasets for foam phantoms released.
 * Around Mar 2020: Challenge closed. Final results released.
 
