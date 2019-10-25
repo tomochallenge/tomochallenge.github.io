@@ -42,7 +42,7 @@ To compute error metrics, ground truth volumes for the corresponding time steps 
 3.	Dice score of water in the gas diffusion layer region (Region 3 in Figure).
 4.	Dice score of water in the membrane region (Region 4 in Figure 1).
 
-![github_fc_pic](https://user-images.githubusercontent.com/56732221/67579034-fc57e900-f743-11e9-92d7-2ceef81811ac.png)
+![github_fc_pic](https://user-images.githubusercontent.com/56732221/67579034-fc57e900-f743-11e9-92d7-2ceef81811ac.png)  
 Figure 1 – Reconstructed fuel cell, time step C, slice number 360 of the full volume. The reconstruction has been artificially rotated just for illustration purposes.
 
 As a final score of the submission, the harmonic mean of all four metrics is used.
