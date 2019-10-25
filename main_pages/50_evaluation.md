@@ -25,3 +25,21 @@ As a final score of the submission, the harmonic mean of all five metrics is use
 The Python script used to compute these metrics is made available in a [GitHub repository](https://github.com/tomochallenge/tomochallenge_utils). Also provided is the ground truth file for the Foam 1 sample, which
 can be used to compute the metrics for the training datasets.
 
+### Operando Fuel Cell data
+
+Each submission for the operando fuel cell dataset challenge consists of segmented volumes for 3 selected time steps (see [here](https://tomochallenge.github.io/submit/) for more information on how to submit), with water voxels having the value 1, and the other voxels (air, carbon, platinum, …) the value 0. The time steps considered for the evaluation are the following:
+
+•	Time step A – Reconstruction using projection 17701 to 18000 (out of 18060 projections) from sample fuelcell_i2.
+•	Time step B  –  Reconstruction using projection 8701 to 9000 (out of 18060 projections) from sample fuelcell_i3.
+•	Time step C – Reconstruction using projection 17701 to 18000 (out of 18060 projections) from sample fuelcell_i3.
+
+Only the central part of each segmented volume (reconstructed slices 240-840 out of 1100) will be evaluated. You can either submitted the full volume or just the relevant slices.
+
+To compute error metrics, ground truth volumes for the corresponding time steps are created through an established reconstruction and segmentation procedure. Using the submitted segmented and corresponding ground truth volumes, the following metrics are computed:
+
+1.	Dice score of water: 2 tp/(2 tp+ fn + fp), where tp is the total number of water voxels correctly segmented to 1, fn the total number of water voxels that are incorrectly segmented to 0, and fp the total number of non-water voxels that are incorrectly segmented to 1. The evaluated volume comprises the catalyst coated membrane, the gas diffusion layer, and the channels (Region 1 in Figure 1).
+2.	Dice score of water in one channel (Region 2 in Figure 1).
+3.	Dice score of water in the gas diffusion layer region (Region 3 in Figure).
+4.	Dice score of water in the membrane region (Region 4 in Figure 1).
+
+As a final score of the submission, the harmonic mean of all four metrics is used.
