@@ -39,3 +39,43 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 @import "minima";
+
+table {
+    font-family: monospace;
+    font-size: medium;
+}
+table {
+    border:none;
+    border-collapse: collapse;
+}
+
+table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+table td:last-child {
+    border-right: none;
+}
+
+table th {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+table th:first-child {
+    border-left: none;
+}
+
+table th:last-child {
+    border-right: none;
+}
