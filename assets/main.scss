@@ -52,8 +52,7 @@ table {
 table td {
     border-left: 1px solid #000;
     border-right: 1px solid #000;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+    padding: 0.5em;
 }
 
 table td:first-child {
@@ -68,8 +67,7 @@ table th {
     border-left: 1px solid #000;
     border-right: 1px solid #000;
     border-bottom: 1px solid #000;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+    padding: 0.5em;
 }
 
 table th:first-child {
