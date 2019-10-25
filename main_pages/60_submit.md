@@ -21,7 +21,7 @@ Please see [here](https://tomochallenge.github.io/results/) what information pre
 
 ## Operando Fuel Cell data
 
-To submit results for the challenge of the operando fuel cell, please use the prepare_submission function of the `fuelcell_utils.py` script that can be found [here](https://github.com/tomochallenge/tomochallenge_utils). In the function, please use the following arguments:
+To submit results for the challenge of the operando fuel cell, please use the `prepare_submission` function of the `fuelcell_utils.py` script that can be found [here](https://github.com/tomochallenge/tomochallenge_utils). In the function, please use the following arguments:
 
 * `vol`: numpy array of size 1440x1440x1100 (full volume) or 1440x1440x600 (vertically cropped volume) voxels.  
 * `filename`: output filename. Please use a descriptive filename.  
