@@ -29,9 +29,9 @@ can be used to compute the metrics for the training datasets.
 
 Each submission for the operando fuel cell dataset challenge consists of segmented volumes for 3 selected time steps (see [here](https://tomochallenge.github.io/submit/) for more information on how to submit), with water voxels having the value 1, and the other voxels (air, carbon, platinum, …) the value 0. The time steps considered for the evaluation are the following:
 
-  •	Time step A – Reconstruction using projection 17701 to 18000 (out of 18060 projections) from sample fuelcell_i2.  
-  •	Time step B  –  Reconstruction using projection 8701 to 9000 (out of 18060 projections) from sample fuelcell_i3.  
-  •	Time step C – Reconstruction using projection 17701 to 18000 (out of 18060 projections) from sample fuelcell_i3.  
+* Time step A – Reconstruction using projection 17701 to 18000 (out of 18060 projections) from sample fuelcell_i2.  
+* Time step B  –  Reconstruction using projection 8701 to 9000 (out of 18060 projections) from sample fuelcell_i3.  
+* Time step C – Reconstruction using projection 17701 to 18000 (out of 18060 projections) from sample fuelcell_i3.  
 
 Only the central part of each segmented volume (reconstructed slices 240-840 out of 1100) will be evaluated. You can either submitted the full volume or just the relevant slices.
 
