@@ -7,6 +7,10 @@ layout: default
 
 Tomography challenge website.
 
+### News
+
+* XXXX-XX-XX: Challenge launched!
+
 ### Requirements
 
 We ask all participants to explain their approach for each submission in detail (if possible, with references to papers),
@@ -14,14 +18,7 @@ to enable the community to learn from the results. Also, please include informat
 
 ### Timeline
 
-* XXXX-XX-XX: Challenge launched. Training and validation datasets for foam phantoms released.
-* XXXX-XX-XX: Test datasets for foam phantoms released.
-* XXXX-XX-XX: Challenge closed. Final results released.
+* Nov 2019: Challenge launched.
+* Around Feb 2020: Test datasets for foam phantoms released.
+* Around Mar 2020: Challenge closed. Final results released.
 
-### Contibutors
-
-This challenge is made possible by:
-
-* 
-* 
-* 
