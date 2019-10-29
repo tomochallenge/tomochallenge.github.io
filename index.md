@@ -9,7 +9,7 @@ Tomography challenge website.
 
 ### News
 
-* XXXX-XX-XX: Challenge launched!
+* 2019-11-01: Challenge launched!
 
 ### Overview
 It is an exciting time to be a tomographer! There is an ever-increasing number of algorithms, approaches, and software tools for tomographic reconstruction. These can provide transformational capabilities, but it is hard for many tomographers to keep up with the new tools and to compare them to what has been available, whether in terms of computational performance or in terms of image quality.
