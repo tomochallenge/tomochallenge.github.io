@@ -11,6 +11,15 @@ Tomography challenge website.
 
 * XXXX-XX-XX: Challenge launched!
 
+### Overview
+It is an exciting time to be a tomographer! There is an ever-increasing number of algorithms, approaches, and software tools for tomographic reconstruction. These can provide transformational capabilities, but it is hard for many tomographers to keep up with the new tools and to compare them to what has been available, whether in terms of computational performance or in terms of image quality.
+Over the past few years, a series of CAMERA Tomography workshops have been held (the next one is in November 2019 [\[link\]](http://microct.lbl.gov/cameratomo2019)), during which participants have discussed how developers of these tools can best measure and communicate about these performance and quality comparisons. The group agreed that some kind of challenge would be an excellent way to inspire improved measurement of and communication about different tools, and we are finally ready to present a first TomoChallenge! 
+
+On this site, you will find links to the data that will be used in the challenge, information about how the challenge will be evaluated, submission instructions, and results of the participants who have made submissions. We plan to write a scientific paper about the
+challenge and its results after the challenge is closed, for which we will invite participants with the best submissions to
+co-author.
+We also plan to have some fun prizes for the groups that have the best result scores, but we believe that all participants will win an increased understanding of the different tomography tools. Have fun!
+
 ### Requirements
 
 We ask all participants to explain their approach for each submission in detail (if possible, with references to papers),
