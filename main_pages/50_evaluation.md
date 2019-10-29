@@ -5,6 +5,7 @@ permalink: evaluation/
 include_in_menu: true
 ---
 
+The "quality" of a reconstruction can be difficult to judge and can often depend on how the reconstruction will subsequently be used. Because of the prevalence of the need for segmentation of tomography data, we have chosen to evaluate the quality of a reconstruction based on its ability to provide the segmentation results that best match the ground truth.
 Below, the way submissions are evaluated is described.
 
 ## Foam phantoms
