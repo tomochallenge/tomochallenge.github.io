@@ -7,7 +7,7 @@ include_in_menu: true
 
 ## Foam phantoms
 
-The data for the simulated foam phantoms is available [here](https://tomobank.readthedocs.io/en/latest/source/phantom/docs.phantom.foams.html#challenge) through TomoBank [[1]](#note1), which includes a detailed description. A (free) [Globus account](https://www.globus.org/) is required to download the data.
+The data for the simulated foam phantoms is available [here](https://tomobank.readthedocs.io/en/latest/source/phantom/docs.phantom.foams.html#challenge) through TomoBank [[1]](#note1), which includes a detailed description. A (free) [Globus account](https://www.globus.org/) is required to download the data. The data of Foam 1 can be used for training and testing of your algorithms, while results should be submitted for the other provided foam samples.
 
 ## Fuel cell data
 
