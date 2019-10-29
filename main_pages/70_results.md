@@ -54,6 +54,22 @@ The shown metrics are (see [here](https://tomochallenge.github.io/evaluation/) f
 |:-----------------------------|:-------|:-----------:|:-----------:|:------------:|:-----------:|:-----------:|:-----:|
 | ASTRA FBP_CUDA [[1]](#note1) | dmpelt |       0.238 |       0.822 |        0.743 |       0.725 |       0.352 |  0.455|
 
+## Fuel Cell data
+
+The shown metrics are (see [here](https://tomochallenge.github.io/evaluation/) for more information):
+
+* DW: Dice score of water.
+* DC: Dice score of water in one channel.
+* DL: Dice score of water in the gas diffusion layer region.
+* DM: Dice score of water in the membrane region.
+* HM: Harmonic mean of all other scores.
+
+| Name                         | By     | DW | DC | DL | DM | HM  |
+|:-----------------------------|:-------|:-----------:|:-----------:|:------------:|:-----------:|:-----------:|
+|  |  |  |  |  |  |  |
+
+
+
 ## Notes
 
 1. <a name="note1"></a> Uses ASTRA 1.8.3 [(link)](http://www.astra-toolbox.com/) 2D FBP_CUDA with the defaults options (i.e. Ram-Lak filter).
