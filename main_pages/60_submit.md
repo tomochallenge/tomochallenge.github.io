@@ -5,7 +5,7 @@ permalink: submit/
 include_in_menu: true
 ---
 
-To submit results, please upload the prepared volumes (see below) to the following [Globus endpoint](https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Fupload%2FCAMERA%2F). To get access to this endpoint, please create a (free) [Globus account](https://www.globus.org/) and send your Globus ID to <span class="ltrText">v<span class="sp">a</span>o<span class="sp">t</span>g<span class="sp">e</span>.<span class="sp">p</span>l<span class="sp">z</span>n<span class="sp">e</span>a<span class="sp">q</span>@<span class="sp">l</span>o<span class="sp">q</span>l<span class="sp">d</span>r<span class="sp">m</span>a<span class="sp">s</span>c<span class="sp">x</span>e<span class="sp">k</span>d<span class="sp">.com</span></span>.
+To submit results, please upload the prepared volumes (see below) to the following [Globus endpoint](https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Fupload%2FCAMERA%2F). To get access to this endpoint, please create a (free) [Globus account](https://www.globus.org/) and send your Globus ID to <span class="ps">v<span class="sp">a</span>o<span class="sp">t</span>g<span class="sp">e</span>.<span class="sp">p</span>l<span class="sp">z</span>n<span class="sp">e</span>a<span class="sp">q</span>@<span class="sp">l</span>o<span class="sp">q</span>l<span class="sp">d</span>r<span class="sp">m</span>a<span class="sp">s</span>c<span class="sp">x</span>e<span class="sp">k</span>d<span class="sp">.com</span></span>.
 
 ## Foam phantoms
 
