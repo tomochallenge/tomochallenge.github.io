@@ -5,6 +5,8 @@ permalink: results/
 include_in_menu: true
 ---
 
+This page will show the scores for the submissions so far, and will be updated every time new results are submitted.
+
 ## Foam phantoms
 
 The shown metrics are (see [here](https://tomochallenge.github.io/evaluation/) for more information):
