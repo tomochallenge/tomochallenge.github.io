@@ -14,6 +14,7 @@
       </span>
 
       <div class="trigger">
+        <a class="page-link" href="{{ "/" | relative_url }}">Home</a>
         {% for my_page in site.pages %}
             {% if my_page.include_in_menu %}
               {% if my_page.title %}
