@@ -77,3 +77,7 @@ table th:first-child {
 table th:last-child {
     border-right: none;
 }
+
+span.sp {display:none;}
+
+span.ps {unicode-bidi: bidi-override; direction: rtl;}
