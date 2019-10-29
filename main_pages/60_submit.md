@@ -6,7 +6,7 @@ include_in_menu: true
 ---
 
 To submit results, please upload the prepared volumes (see below) to the following [Globus endpoint](https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Fupload%2FCAMERA%2F). To get access to this endpoint, please create a (free) [Globus account](https://www.globus.org/) and send your Globus ID to 
-<img class="emailim" src="https://tomochallenge.github.io/assets/addr.png"></img>.
+<img class="emailim" src="https://tomochallenge.github.io/assets/addr.png"/>.
 
 ## Foam phantoms
 
