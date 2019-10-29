@@ -5,6 +5,8 @@ permalink: submit/
 include_in_menu: true
 ---
 
+To submit results, please upload the prepared volumes (see below) to the following [Globus endpoint](https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Fupload%2FCAMERA%2F). To get access to this endpoint, please create a (free) [Globus account](https://www.globus.org/) and send your Globus ID to <span class="ltrText">v<span class="sp">a</span>o<span class="sp">t</span>g<span class="sp">e</span>.<span class="sp">p</span>l<span class="sp">z</span>n<span class="sp">e</span>a<span class="sp">q</span>@<span class="sp">l</span>o<span class="sp">q</span>l<span class="sp">d</span>r<span class="sp">m</span>a<span class="sp">s</span>c<span class="sp">x</span>e<span class="sp">k</span>d<span class="sp">.com</span></span>.
+
 ## Foam phantoms
 
 To submit results for the challenges of the foam phantoms, please use the `prepare_submission` function of the `foam_phantom_utils.py` script that can be found [here](https://github.com/tomochallenge/tomochallenge_utils). In the function, please use the following as arguments:
@@ -15,7 +17,9 @@ To submit results for the challenges of the foam phantoms, please use the `prepa
     1. which challenge the submission is for.
     2. a short name for the submission (about 10 characters).
     3. a short name for the submitting person or group (about 10 characters).
-    4. a longer explanation of the approach used to obtain the submitted results. References can also be included.
+    4. contact information (email address) for the submitting person or group. This information will not be made public.
+    5. the required computation time for computing the results, and which computational hardware was used.
+    6. a longer explanation of the approach used to obtain the submitted results. References can also be included.
 
 Please see [here](https://tomochallenge.github.io/results/) what information previous submissions have provided. If you have previously submitted results for the same challenge with the same short name, the results will be updated in the table. Please indicate what was changed compared with the previous submission(s).
 
@@ -27,7 +31,9 @@ To submit results for the challenge of the operando fuel cell, please use the `p
 * `filename`: output filename. Please use a descriptive filename.  
 * `description`: a description of the submission in a text string. Please include (at least) the following:  
     1. which challenge the submission is for.
-    2. a short name for the submission (about 10 characters)  
-    3. a short name for the submitting person or group (about 10 characters)  
-    4. a longer explanation of the approach used to obtain the submitted results. References can also be included.   
+    2. a short name for the submission (about 10 characters).
+    3. a short name for the submitting person or group (about 10 characters).
+    4. contact information (email address) for the submitting person or group. This information will not be made public.
+    5. the required computation time for computing the results, and which computational hardware was used.
+    6. a longer explanation of the approach used to obtain the submitted results. References can also be included.
 
