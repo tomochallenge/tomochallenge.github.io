@@ -9,11 +9,11 @@ The data for all challenges are made available through [TomoBank](https://tomoba
 
 ## Foam phantoms
 
-The data for the simulated foam phantoms is available [here](https://tomobank.readthedocs.io/en/latest/source/phantom/docs.phantom.foams.html#challenge), including a detailed description. The data of Foam 1 (phan_00016 to phan_00022 on TomoBank) can be used for training and testing of your algorithms, while results should be submitted for the other provided foam samples (phan_00023 to phan_00028 on TomoBank).
+The data for the simulated foam phantoms is available [here](https://tomobank.readthedocs.io/en/latest/source/phantom/docs.phantom.foams.html#challenge), including a detailed description. The data of Foam 1 (`phan_00016` to `phan_00022` on TomoBank) can be used for training and testing of your algorithms, while results should be submitted for the other provided foam samples (`phan_00023` to `phan_00028` on TomoBank).
 
 ## Fuel cell data
 
-The data for the dynamic fuel cell experiment is available [here](https://tomobank.readthedocs.io/en/latest/source/data/docs.data.dynamic.html#fuel-cell-data), including a detailed description. The data is available from a single Globus folder (tomo_00081 on TomoBank), which includes three datasets (fuelcell_i1.h5, fuelcell_i2.h5, and fuelcell_i3.h5).
+The data for the dynamic fuel cell experiment is available [here](https://tomobank.readthedocs.io/en/latest/source/data/docs.data.dynamic.html#fuel-cell-data), including a detailed description. The data is available from a single Globus folder (`tomo_00081` on TomoBank), which includes three datasets (`fuelcell_i1.h5`, `fuelcell_i2.h5`, and `fuelcell_i3.h5`).
 
 ## Nano CT data
 
